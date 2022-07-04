@@ -10,8 +10,8 @@
 body {
     background-color: #8257e5;
     height: 100vh;
+    padding-top: 75px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 70px;

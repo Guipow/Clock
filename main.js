@@ -1,9 +1,9 @@
-const hoursHand = document.querySelector(".hand.hours");
-const minutesHand = document.querySelector(".hand.minutes");
-const secondsHand = document.querySelector(".hand.seconds");
+const hoursHand = $(".hand.hours");
+const minutesHand = $(".hand.minutes");
+const secondsHand = $(".hand.seconds");
 
 const setRotation = function (element, rotationPercentage){
-    element.style.setProperty('--rotation', rotationPercentage * 360)
+    element.css('--rotation', rotationPercentage * 360)
 }
 
 const setClock = () => {
