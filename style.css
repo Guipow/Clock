@@ -17,6 +17,10 @@ body {
     gap: 70px;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .clock {
     width: 500px;
     height: 500px;
@@ -118,4 +122,17 @@ body {
 .clock .hand.hours {
     width: 10px;
     height: 23%;
+}
+
+@media (max-width: 550px) {
+    .clock {
+        width: 350px;
+        height: 350px;
+        border: 5px black solid;
+    }
+
+    .clock .number {
+        font-size: 2.4rem;
+        padding: 5px;
+    }
 }
